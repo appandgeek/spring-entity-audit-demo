@@ -1,4 +1,4 @@
-package com.appNgeek.spring_cache_redis_demo.rest.controller;
+package com.appNgeek.spring_entity_audit_demo.rest.controller;
 
 import java.util.Optional;
 
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.appNgeek.spring_cache_redis_demo.domain.User;
-import com.appNgeek.spring_cache_redis_demo.exception.BlogAppException;
-import com.appNgeek.spring_cache_redis_demo.repo.UserRepository;
+import com.appNgeek.spring_entity_audit_demo.domain.User;
+import com.appNgeek.spring_entity_audit_demo.exception.BlogAppException;
+import com.appNgeek.spring_entity_audit_demo.repo.UserRepository;
 
 @RestController
 @RequestMapping("/api/v1/user")

@@ -1,4 +1,4 @@
-package com.appNgeek.spring_cache_redis_demo.config;
+package com.appNgeek.spring_entity_audit_demo.config;
 
 import java.util.Optional;
 
@@ -6,7 +6,7 @@ import org.springframework.data.domain.AuditorAware;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 
-import com.appNgeek.spring_cache_redis_demo.domain.User;
+import com.appNgeek.spring_entity_audit_demo.domain.User;
 
 public class UserAuditorAware implements AuditorAware<User> {
 

@@ -1,4 +1,4 @@
-package com.appNgeek.spring_cache_redis_demo.config;
+package com.appNgeek.spring_entity_audit_demo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

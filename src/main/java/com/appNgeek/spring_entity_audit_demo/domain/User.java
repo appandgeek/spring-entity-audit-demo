@@ -1,4 +1,4 @@
-package com.appNgeek.spring_cache_redis_demo.domain;
+package com.appNgeek.spring_entity_audit_demo.domain;
 
 import java.util.Set;
 
